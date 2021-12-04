@@ -142,7 +142,7 @@
                         <DataGridTemplateColumn >
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Button Width="40" Padding="0" Background="#637BCF"
+                                    <Button x:Name="btnAddService" Width="40" Padding="0" Background="#637BCF"
                                         Style="{StaticResource MaterialDesignRaisedButton}"
                                         Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.AddServiceCommand}">
                                         <materialDesign:PackIcon Kind="Plus"/>
@@ -153,7 +153,7 @@
                         <DataGridTemplateColumn >
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Button Width="40" Padding="0" Background="#637BCF"
+                                    <Button x:Name="btnRemoveService" Width="40" Padding="0" Background="#637BCF"
                                         Style="{StaticResource MaterialDesignRaisedButton}"
                                         Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.RemoveServiceCommand}">
                                         <materialDesign:PackIcon Kind="Minus"/>
@@ -241,7 +241,7 @@
                             <TextBlock Text="Total:" FontSize="18" FontWeight="Bold" 
                                     Foreground="{StaticResource PrimaryHueDarkBrush}" 
                                     VerticalAlignment="Center"/>
-                            <TextBlock Text="{Binding FolioTotalMoney}" FontSize="18" Margin="4 0 8 0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="tbTotalMoney" Text="{Binding FolioTotalMoney}" FontSize="18" Margin="4 0 8 0" VerticalAlignment="Center"/>
                         </StackPanel>
                     </Grid>
                 </Grid>
