@@ -61,7 +61,7 @@ Người dùng hướng tới: các nhân viên thuộc khách sạn.
 
 ## Cơ sở dữ liệu
 
-<img src = "https://user-images.githubusercontent.com/71437616/145176635-0c7a5491-8299-4407-a3c2-bb7137afd909.png" width = 700>
+<img src = "https://user-images.githubusercontent.com/71437616/145177639-96053820-2a24-4630-9938-c17262d8d894.png" width = 700>
 
 ## Công nghệ
 
